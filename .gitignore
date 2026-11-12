@@ -1,0 +1,19 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Variáveis sensíveis
+.env
+
+# Caches do Python e Testes
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Banco local SQLite
+*.sqlite3
+
+# Frontend (Fase 5)
+node_modules/
+dist/
