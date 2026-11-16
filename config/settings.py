@@ -44,8 +44,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Terceiros
     "rest_framework",
     "corsheaders",
+    # Domínio NexusFlow
+    "colaboradores",
+    "processos",
 ]
 
 MIDDLEWARE = [
@@ -149,3 +153,4 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+AUTH_USER_MODEL = "colaboradores.Colaborador"
